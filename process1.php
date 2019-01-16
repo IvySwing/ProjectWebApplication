@@ -1,35 +1,35 @@
 <?php
-$mn = $_POST['Male Name'];
-$oc = $_POST['Occupation'];
-$n = $_POST['Noun'];
-$an = $_POST['Another Noun'];
-$on = $_POST['One More Noun'];
-$s = $_POST['Shape'];
-$gn = $_POST['Guy Name'];
-$vb = $_POST['Verb'];
-$wn = $_POST['Woman Name'];
-$bp = $_POST['Body Part'];
-$av = $_POST['Another Verb'];
-$fn = $_POST['Fourth Noun'];
-$tn = $_POST['Fifth Noun'];
-$rn = $_POST['Restaurant Name'];
-$hm = $_POST['Historic Monument'];
-$ov = $_POST['One More Verb'];
-$sn = $_POST['Sixth Noun'];
-$vn = $_POST['Seventh Noun'];
-$en = $_POST['Eighth Noun'];
-$fv = $_POST['Fourth Verb'];
-$jn = $_POST['Just One More Noun'];
-$ad = $_POST['Adjective'];
-$sd = $_POST['Adjective #2'];
-$em = $_POST['Emotion'];
-$gv = $_POST['Verb #5'];
-$nn = $_POST['Noun #9'];
-$ln = $_POST['Last Noun'];
-$lv = $_POST['Last Verb'];
+$mn = $_POST['mn'];
+$oc = $_POST['oc'];
+$n = $_POST['n'];
+$an = $_POST['an'];
+$on = $_POST['on'];
+$s = $_POST['s'];
+$gn = $_POST['gn'];
+$vb = $_POST['vb'];
+$wn = $_POST['wn'];
+$bp = $_POST['bp'];
+$av = $_POST['av'];
+$fn = $_POST['fn'];
+$tn = $_POST['tn'];
+$rn = $_POST['rn'];
+$hm = $_POST['hm'];
+$ov = $_POST['ov'];
+$sn = $_POST['sn'];
+$vn = $_POST['vn'];
+$en = $_POST['en'];
+$fv = $_POST['fv'];
+$jn = $_POST['jn'];
+$ad = $_POST['ad'];
+$sd = $_POST['sd'];
+$em = $_POST['em'];
+$gv = $_POST['gv'];
+$nn = $_POST['nn'];
+$ln = $_POST['ln'];
+$lv = $_POST['lv'];
 
 
-$a = array("$mn", "$oc", "$n", "$an", "$on", "$s", "$gn", "$vb", "$wn", "$bp", "$av", "$fn", "$tn", "$rn", "$hm", "$ov", "$sn", "$vn", "$en", "$fv", "$jn", "$ad", "$sd", "$em", "$gv", "$nn", "$ln", "$lv"
+$a = array($mn, $oc, $n, $an, $on, $s, $gn, $vb, $wn, $bp, $av, $fn, $tn, $rn, $hm, $ov, $sn, $vn, $en, $fv, $jn, $ad, $sd, $em, $gv, $nn, $ln, $lv
 );
 
 $d = file_get_contents('data1.json');
