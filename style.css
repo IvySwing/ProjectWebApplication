@@ -1,0 +1,23 @@
+*
+{
+    font-family: 'Coiny', cursive;   
+}
+body{
+    background-color: #4A7C59;
+}
+h1{
+    color: #FAF3DD;
+    text-align: center;
+}
+h2{
+    color: #FAF3DD;
+    text-align: center;
+}
+p{
+    
+}
+img{
+    height: 90px;
+    width: 90px;
+    border-radius: 30px;
+}
