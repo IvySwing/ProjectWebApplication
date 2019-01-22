@@ -14,10 +14,17 @@ h2{
     text-align: center;
 }
 p{
-    
+    font-size: 15px;
+    text-decoration: underline;
 }
 img{
     height: 90px;
     width: 90px;
     border-radius: 30px;
+}
+.column{
+    display: inline-block;
+    padding-top: 65px;
+    padding-left: 150px;
+    padding-right: 150px;
 }

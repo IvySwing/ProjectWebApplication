@@ -1,6 +1,11 @@
 <!doctype html>
 <html>
+    <head>
+        <link rel="stylesheet" href="stylestory.css">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">    
+    </head>
     <body>
+        <h1> The Movie: Fullstack's Revenge </h1>
         <?php
         
         $d = file_get_contents('data1.json');

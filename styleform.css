@@ -1,0 +1,23 @@
+*{
+    font-family: 'Cormorant', serif;
+    background-color: #68B0AB;
+}
+h1{
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+}
+input{
+    width: 15%;
+    border: 1px solid #C8D5B9;
+    border-radius: 2px;
+    background-color: #EEF4ED;
+    font-weight: bold;
+}
+input[type=submit]{
+    width:7%;
+    border: 1px solid #C8D5B9;
+    border-radius: 2px;
+    background-color: #000000;
+    color:#EEF4ED;
+}
