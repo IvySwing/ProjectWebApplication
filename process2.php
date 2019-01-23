@@ -39,5 +39,5 @@ array_unshift($d, $a);
 $d = json_encode($d);
 file_put_contents('data2.json', $d);
 
-header('location:../story2.php');
+header('location: story2.php');
 ?>

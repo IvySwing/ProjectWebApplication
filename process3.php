@@ -31,5 +31,5 @@ array_unshift($d, $a);
 $d = json_encode($d);
 file_put_contents('data3.json', $d);
 
-header('location:../story3.php');
+header('location: story3.php');
 ?>
